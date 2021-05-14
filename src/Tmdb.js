@@ -1,4 +1,8 @@
-const API_KEY = "15a8dbfc77dbca4cf8cc97fdf9ca6c60";
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+const API_KEY = process.env.REACT_APP_API_KEY;
 const API_BASE = "https://api.themoviedb.org/3";
 
 /*
